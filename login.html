@@ -4,8 +4,11 @@
         <meta charset = "UTF-8">
         <title>Matthew Stanley</title>
         <link rel = "stylesheet" href="style.css">
+        <script src="./js/signin.js"></script>
     </head>
     <body>
+
+
         <table class="toolbar">
             <tr>
                 <th style="border: 1px solid rgb(97, 97, 97)" class="bar">
@@ -17,8 +20,23 @@
                 <th style="border: 1px solid rgb(97,97,97)" class="bar">
                     <a href="./login.html" class="menu">Login</a>
                 </th>
-                
             </tr>
         </table>
+
+        <div class="sign_in">
+            <form name="signin" onsubmit="return validate()" class="sign_in">
+                <label>User: </label>
+                <input type="text" name="user" /><br />
+                <label>Password: </label>
+                <input type="text" name="pass" /><br />
+                
+                <div class="button">
+                <input type="submit" value="Submit" />
+                <input type="reset" value="Clear" />
+                </div>
+            </form>
+        </div>
+
+
     </body>
 </html>

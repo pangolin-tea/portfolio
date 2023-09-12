@@ -3,15 +3,14 @@
     <head>
         <meta charset = "UTF-8">
         <title>Matthew Stanley</title>
-        <link rel = "stylesheet" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=Open Sans' rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <h1 class="title">
         Matthew Stanley
     </h1>
-    
-    <body>
-        <table class="toolbar">
+    <table class="toolbar">
             <tr>
                 <th style="border: 1px solid rgb(97, 97, 97)" class="bar">
                     <a href="./index.html" class="menu">Home</a>
@@ -25,5 +24,7 @@
                 
             </tr>
         </table>
+    <body id='main'>
+        
     </body>
 </html>

@@ -1,10 +1,7 @@
-<<<<<<< HEAD
 @keyframes fadeIn {
     0% {opacity: 0 ; }
     100% { opacity: 1; }
 }
-=======
->>>>>>> 7387fa3b934c75108f2e00f57306978d96ab07c7
 .sign_in {
     margin: auto;
     width: 50%;
@@ -17,23 +14,16 @@
 .toolbar{
     overflow: hidden;
     background-color: #ffffff;
-<<<<<<< HEAD
     font-family: 'Open Sans';
     width: 100%;
-=======
-    font-family: Arial;
->>>>>>> 7387fa3b934c75108f2e00f57306978d96ab07c7
 }
 .button{
     margin: auto;
     padding: 10px;
-<<<<<<< HEAD
 }
 .title{
     text-align: center;
     width: 100%;
     animation: fadeIn 3s;
     font-family: 'Open Sans';
-=======
->>>>>>> 7387fa3b934c75108f2e00f57306978d96ab07c7
 }
